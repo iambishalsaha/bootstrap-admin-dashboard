@@ -6,7 +6,8 @@
   "author": "Bishal Saha - iambishal.com",
   "keywords": [],
   "license": "ISC",
-  "main": "gulpfile.js",
+  "main": "index.js",
+  "type": "module",
   "browserslist": [
     "last 2 version",
     "> 2%"
@@ -32,7 +33,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-useref-plus": "^0.0.8",
-    "sass": "^1.83.1"
+    "sass": "1.77.6"
   },
   "dependencies": {
     "apexcharts": "^4.3.0",
