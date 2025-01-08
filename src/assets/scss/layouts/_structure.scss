@@ -1,0 +1,14 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#app-layout {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}

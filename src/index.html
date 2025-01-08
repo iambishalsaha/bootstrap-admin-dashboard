@@ -5,10 +5,22 @@
     @@include("partials/styles.html")
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-12">asdasdsa</div>
-    </div>
+<div id="app-layout">
+    @@include("partials/header.html")
+
+    @@include("partials/navbar.html")
+
+    <main class="main-container">
+        <div class="page-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">Dashboard</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    @@include("partials/footer.html")
 </div>
 @@include("partials/scripts.html")
 </body>

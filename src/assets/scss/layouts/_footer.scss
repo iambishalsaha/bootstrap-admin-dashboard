@@ -1,0 +1,14 @@
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: $vertical-navbar-width;
+  height: $footer-height;
+  padding: 20px calc(#{$grid-gutter-width} * 0.5);
+  color: var(--#{$prefix}footer-text-color);
+  background-color: var(--#{$prefix}footer-bg-color);
+
+  @media (max-width: 991.99px) {
+    left: 0;
+  }
+}

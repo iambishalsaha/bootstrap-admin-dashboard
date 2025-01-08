@@ -1,0 +1,11 @@
+:root {
+  //footer
+  --#{$prefix}footer-bg-color:                                          #{$footer-bg-color};
+  --#{$prefix}footer-text-color:                                       #{$footer-text-color};
+}
+
+@include color-mode(dark, true) {
+  //footer
+  --#{$prefix}footer-bg-color:                                          #{$footer-bg-color-dark};
+  --#{$prefix}footer-text-color:                                       #{$footer-text-color-dark};
+}

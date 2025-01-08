@@ -8,6 +8,12 @@
 @import "root";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// Plugins
+
+// Layouts
+@import "layouts/structure";
+@import "layouts/footer";
+
 
 // Components
 @import "components/utilities";
